@@ -1,21 +1,19 @@
 body {
     background-color: #F4D04E;
+    display: grid;
+    place-items: center;
+    min-height: 90vh;
+    padding:10px;
 }
 
 .card {
     background-color: white;
-    width: 384px;
-    /* height: 522px;     */
+    width: 100%;
+    max-width: 384px;
+    max-height: 550px;
     border: 1px solid; 
     border-radius: 20px;
     box-shadow: 7px 7px #111111;
-
-    /* centering in middle of the page*/
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    padding-bottom: 24px;
 }
 
 #blog_image {
@@ -24,12 +22,11 @@ body {
     margin-top: 24px;
     margin-left: 24px;
     margin-right: 24px;
-
 }
 
 .content {
     margin: 24px;
-} 
+}
 
 #category{ 
 
@@ -111,4 +108,3 @@ body {
     } 
     cursor: url('assets/images/Pointer.ico') ,default;
 }
-
