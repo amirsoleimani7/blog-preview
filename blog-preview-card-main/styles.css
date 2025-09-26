@@ -1,0 +1,112 @@
+body {
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    min-height: 90vh;
+}
+
+.card {
+    background-color: white;
+    width: calc(100% - 20px);
+    max-width: 384px;
+    max-height: 550px;
+    border: 1px solid; 
+    border-radius: 20px;
+    box-shadow: 7px 7px #111111;
+    overflow: hidden;
+}
+
+#blog_image {
+
+    width: calc(100% - 48px);
+    height: auto;
+    max-width: 334px;
+    max-height: 200px;  
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.content {
+    margin: 24px;
+}
+
+#category{ 
+
+    background-color: #F4D04E;
+    border-radius: 4px;
+    color: #111111;
+    font-family: 'figtree';
+    font-size: clamp(0.75rem, 1vw + 0.3rem, 0.875rem);
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+
+    height: 29px;
+    width: 82px;
+
+    text-align: center;
+    padding-top:7px;
+
+}
+
+#published-date {
+    
+    color: #111111;
+    font-family: 'figtree';
+    font-size: clamp(0.875rem, 1vw + 0.5rem, 1rem);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+#title {
+    color: #111111;
+    font-family: 'figtree';
+    font-size: clamp(1.25rem, 2vw + 0.5rem, 1.5rem);
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+#description {    
+    color: #6B6B6B;
+    font-family: 'figtree';
+    font-size: clamp(0.875rem, 1vw + 0.5rem, 1rem);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-left:24px;
+    margin-bottom:24px;
+    height: 32px;    
+    gap: 12px ;
+}
+
+.author #author_image {
+    width: 32px;
+    height: 32px;
+}
+
+.author #author-name {    
+    color: #111111;
+    font-family: 'figtree';
+    font-size: clamp(0.875rem, 1vw + 0.3rem, 1rem);
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.card:hover{
+    #title{
+        color: #F4D04E;
+    }
+    cursor: url('assets/images/Pointer.ico') ,default;
+}
